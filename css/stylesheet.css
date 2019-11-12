@@ -1,4 +1,5 @@
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -168,7 +169,7 @@ h3 {
   position: relative;
   margin: 0px;
 
-  /* display: grid;
+  /*
   grid-template-rows: 30px auto auto auto auto auto 100px;
   grid-template-columns: 1fr 5fr 1fr;
   grid-row-gap: 15px;
@@ -176,15 +177,17 @@ h3 {
 }
 
 
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
+  color: black;
   text-align: left;
 }
+
+
+
 
 
  /* The flip box container - */
@@ -259,7 +262,7 @@ input[type=submit]:hover {
 /* Side-by-Side Image Gallery for Experience Page */
 
 /* Style the container/contact section */
-.container {
+.container-imgGallery {
   display: grid;
   border-radius: 5px;
   padding: 10px;
@@ -331,3 +334,4 @@ grid-template-columns: 50px auto 500px auto 50px; */
     margin-top: 0;
   }
 }
+
